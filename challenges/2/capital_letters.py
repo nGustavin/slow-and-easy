@@ -5,9 +5,10 @@
 
 super_string = "I dont Know what to WRite but thats ok!"
 
-
 def capital_letters(string: str)-> list:
-  # This function get's a string and return the index of all capital letters on it
+  """
+   This function get's a string and return the index of all capital letters on it
+  """
   capital_letters_list = []
   for idx, letter in enumerate(string):
     if(letter.isupper()):
