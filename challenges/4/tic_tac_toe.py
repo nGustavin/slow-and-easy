@@ -69,7 +69,5 @@ class TicTacToe:
             self.__write(move, self.info[player]['mark'], player)
             break   
 
-      
-
 board = TicTacToe()
 board.start("Gutavos", "gustavos 2")
