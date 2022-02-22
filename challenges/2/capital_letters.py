@@ -16,6 +16,3 @@ def capital_letters(string: str)-> list:
     else:
       pass
   return capital_letters_list
-
-print(capital_letters(super_string))
-
